@@ -35,14 +35,15 @@ nav ul {
     text-align: center;
 }
 
-nav li {
+nav li a {
     display: inline-block;
     font-size: 1.6rem;
     color: #EDE7F1;
     cursor: pointer;
+    text-decoration: none;
 }
 
-nav li:hover {
+nav li a:hover {
     color: #cfbbdc;
     transition: 0.5s;
 }
